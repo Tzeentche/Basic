@@ -16,10 +16,10 @@ public class FunctionValue {
 
         try {
 
-            for (int i = 0; i < param.length; i ++) {
+            for (int counter = 0; counter < param.length; counter ++) {
 
-                System.out.println("For equation \"z = ((a - 3) * b / 2) + c\", please, enter numeral value " + val[i] + ": ");
-                param[i] = input.nextDouble();
+                System.out.println("For equation \"z = ((a - 3) * b / 2) + c\", please, enter numeral value " + val[counter] + ": ");
+                param[counter] = input.nextDouble();
             }
 
             result = ((param[0] - 3) * param[1] / 2) + (param[2]);
