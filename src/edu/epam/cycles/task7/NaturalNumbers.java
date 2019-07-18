@@ -5,7 +5,6 @@ package edu.epam.cycles.task7;
 
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 public class NaturalNumbers {
 
